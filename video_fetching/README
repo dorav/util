@@ -1,0 +1,18 @@
+The scripts are meant to be used to allow users
+to download legal videos obtained from a MU3 file.
+
+currently only supporting MU3 files that contain .ts files.
+
+To run the scripts, you need to specify a destination folder and the URL of the MU3 file
+
+Open University specific:
+
+When you go to the video page:
+
+1. Start playing a video.
+2. Right click right below the video and select "view frame source". 
+   * You may need to try several places untill you find it
+3. Look for a line that sais "media = "http.../playlist.m3u8"
+4. Copy the address
+4.5 - Running a powershell script means right clicking it and choosing 'run with powershell'
+5. If you are running windows - run the script 'run_me.ps1' in the windows directory and follow the instruction
